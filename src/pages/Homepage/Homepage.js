@@ -1,7 +1,7 @@
 import Cards from '../../components/cards/Cards';
-import './App.css';
+import './Homepage.css';
 
-function App() {
+function Homepage() {
   return (
     <div className="App">
       <h1>Hello World</h1>
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default Homepage;
