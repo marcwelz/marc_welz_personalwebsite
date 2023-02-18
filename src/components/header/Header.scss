@@ -1,0 +1,25 @@
+.marcwelz-design-header {
+    height: 56px;
+
+    background-color: silver;
+
+    &__content {
+        display: flex;
+
+        width: 100%;
+
+        &_menu {
+            display: flex;
+            & > p {
+                font-weight: bold;
+                border-left: 1px black solid;
+
+                padding: 0 12px;
+
+                &:first-child {
+                    border-left: none;
+                }
+            }
+        }
+    }
+}
